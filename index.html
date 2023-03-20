@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Basics of Coding Quiz!</title>
+
+    <!--- Link to the style.css file. -->
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <!-- Containing the description of the application, the title of the quiz, the timer, and section with the recent scores. -->
+    <header>
+        <h1 id="title">The Basics of Coding Quiz!</h1>
+        <p id="header-text">Greetings Earthling! Take this quiz to test your knowledge on some of the basic knowledge in coding. <br>Be mindful that for each time you get an answer wrong, 10 seconds will be deducted from the total time you have to take the quiz!</p>
+        <a id="view-scores" class="header-style" href="#"> View your recent scores</a>
+        <br></br>
+    </header>
+
+    <!-- Beginning the quiz button -->
+    <button type="submit" id="start-quiz">Start Quiz</button>
+
+    <!-- Quiz div element -->
+    <div id="quiz">
+        <form id="form">
+            <!-- Question -->
+            <p id="question">Question</p>
+
+            <!-- First choice -->
+            <input type="radio" id="option-1" name="option" value="0">
+            <label for="option-1">Option 1</label><br>
+
+            <!-- Second Choice -->
+            <input type="radio" id="option-2" name="option" value="1">
+            <label for="option-2">Option 2</label><br>
+
+            <!-- Third Choice -->
+            <input type="radio" id="option-3" name="option" value="2">
+            <label for="option-3">Option 3</label><br>
+
+            <!-- Fourth Choice -->
+            <input type="radio" id="option-4" name="option" value="3">
+            <label for="option-4">Option 4</label><br></br>
+
+            <!-- Submit Button -->
+            <button type="submit" id="submit">Submit</button>
+           </form>
+    </div>
+
+    <br></br>
+
+    <!-- Feedback-->
+    <p id="feedback"></p>
+
+    <!-- Reset Button -->
+    <button type="click" id="reset">Reset</button>
+
+    <br></br>
+
+    <!-- Submitting the score button -->
+    <button type="click" id="submit-score">Submit Score</button>
+
+    <br></br>
+
+    <!-- Clearing the scores button -->
+    <button type="click" id="clear-scores">Clear scores</button>
+
+    <!-- Link to the script.js file -->
+    <script src="./assets/script.js"></script>
+</body>
+</html>

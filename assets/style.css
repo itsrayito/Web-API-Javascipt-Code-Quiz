@@ -1,0 +1,48 @@
+/* Page styling */
+h1 {text-align: center;}
+
+/* Setting the height of the page to cover the whole page */
+html, body {
+    height: 100%;
+}
+
+/* Setting the display and margin of the whole page */
+html {
+    display: table;
+    margin: auto;
+}
+
+/* Setting the padding, alignment, and padding of the body section */
+body {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 50px 50px 50px 50px;
+}
+P { text-align: center }
+body {
+    background-color: #E7B9A8;
+  }
+
+  button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-family: papyrus;
+    font-size: 100%;
+    background-color: #c377b0;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: black;
+    border: 0;
+    transition: background-color 0.1s;
+  }
+
+  button:hover {
+    background-color: #8fdcc4;
+  }
+
+  .timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
